@@ -37,7 +37,7 @@ create a link to this repository.
 $ git clone https://github.com/jackhumbert/qmk_firmware.git
 $ cd qmk_firmware
 $ ./util/qmk_install.sh
-$ ln -s /path/to/ergodox-keymap keyboards/ergodox/keymaps/waynee95
+$ ln -s /path/to/ergodox-keymap keyboards/ergodox_ez/keymaps/waynee95
 ```
 
 Then you can build the keymap hex file.
