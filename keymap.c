@@ -24,8 +24,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                DE_ALGR,        KC_LCTRL,
                               KC_SPC, KC_BSPC, KC_LALT,        KC_DEL, MO(SYMB), KC_ENT
 
-    )
+    ),
 
-    // TODO: add symbols layer
+    // layer 1 : symbols
+    [SYMB] = LAYOUT_ergodox_pretty(
+       ___, KC_F1,   KC_F2,   KC_F3,   KC_F4,      KC_F5,         ___,      ___, KC_F6,   KC_F7,   KC_F8,         KC_F9,   KC_F10,  KC_F11,
+       ___, XXX,     DE_LESS, DE_LCBR, LSFT(KC_7), ALGR(DE_PLUS), ___,      ___, DE_PERC, DE_AT,   DE_RCBR,       DE_MORE, XXX,     KC_F12,
+       ___, DE_QUOT, DE_EQL,  DE_MINS, DE_LPRN,    DE_PLUS,                      DE_ASTR, DE_RPRN, LSFT(DE_MINS), DE_BSLS, DE_DQOT, ___,
+       ___, DE_GRV,  DE_QST,  DE_HASH, DE_LBRC,    ALGR(DE_LESS), ___,      ___, DE_AMPR, DE_RBRC, DE_DLR,        DE_EXLM, DE_CIRC, ___,
+       ___,    ___,   ___,  ___,     ___,                                                 ___,     ___,      ___,    ___,      ___,
+
+                                              ___, ___,        ___, ___,
+                                                   ___,        ___,
+                                         ___, ___, ___,        ___, ___, ___
+
+    ),
 };
 
