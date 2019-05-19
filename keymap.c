@@ -20,8 +20,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_LSHIFT, DE_Y, KC_X, KC_C,    KC_V, KC_B, ___,        ___,  KC_N, KC_M,    KC_COMM, KC_DOT, DE_MINS, KC_RSHIFT,
        ___,       ___,   ___, KC_LEFT, KC_RIGHT,                           KC_DOWN, KC_UP,   ___,    ___,      ___,
 
-                                              ___, ___,        ___, ___,
-                                               DE_ALGR,        KC_DEL,
+                                               KC_HOME, ___,       ___, KC_END,
+                                               KC_ALGR,        KC_DEL,
                               KC_SPC, KC_BSPC, KC_LCTRL,       KC_LALT, MO(SYMB), KC_ENT
 
     ),
