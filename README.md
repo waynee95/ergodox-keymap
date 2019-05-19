@@ -2,8 +2,6 @@
 
 > my layout for the [Ergodox EZ](https://ergodox-ez.com/) keyboard
 
-:warning: This is still work in progress!
-
 ## Layers
 
 ### Default Layer
@@ -43,7 +41,7 @@ $ ln -s /path/to/ergodox-keymap keyboards/ergodox_ez/keymaps/waynee95
 Then you can build the keymap hex file.
 
 ```shell
-$ make keyboard=ergodox_ez keymap=waynee95
+$ make ergodox_ez:waynee95 
 ```
 
 ## Flashing
