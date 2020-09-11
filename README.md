@@ -59,7 +59,7 @@ If you have the teensy\_loader\_cli installed, you can also build and flash the
 keymap in one step.
 
 ```shell
-$ make teensy keyboard=ergodox_ez keymap=waynee95
+$ ./bin/qmk flash -kb ergodox_ez -kb waynee95
 ```
 
 ## License
